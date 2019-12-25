@@ -1,0 +1,810 @@
+* > {
+  font-size: 0;
+}
+
+#header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+  height: 100px;
+  margin: 0 20%;
+}
+
+#header #headerLeft {
+  position: relative;
+  width: 20%;
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header #headerLeft img {
+  width: 43px;
+  height: 43px;
+}
+
+#header #headerLeft p {
+  font-family: 'Pattaya', 'sans-serif';
+  font-size: 18px;
+}
+
+#header #headerLeft p2 {
+  font-family: 'Pattaya', 'sans-serif';
+  position: absolute;
+  font-size: 12px;
+  bottom: 0;
+  left: 34px;
+}
+
+#header #headerRight {
+  width: 80%;
+  height: 70px;
+}
+
+#header #headerRight #headerRightTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+}
+
+#header #headerRight #headerRightTop div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header #headerRight #headerRightTop div p {
+  margin-left: 5px;
+}
+
+#header #headerRight #headerRightTop div a {
+  margin-left: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+#header #headerRight #headerRightTop div i {
+  color: blue;
+}
+
+#header #headerRight #headerRightBottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#presentation {
+  background-image: url(../img/back3.jpg);
+  background-repeat: round;
+  height: 300px;
+  font-size: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#presentation #presentationLeft {
+  float: left;
+  width: 30%;
+  font-size: 14px;
+  color: white;
+  margin-left: 20%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#presentation #presentationLeft h2 {
+  position: absolute;
+  top: 45px;
+}
+
+#presentation #presentationLeft button {
+  width: 150px;
+  height: 35px;
+  border-radius: 3px;
+  background-color: green;
+  position: absolute;
+  top: 130px;
+}
+
+#presentation #presentationLeft #presentationDotted {
+  position: absolute;
+  top: 230px;
+}
+
+#presentation #presentationLeft #presentationDotted div {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-right: 15px;
+  border-radius: 50%;
+  border: 1px solid white;
+  bottom: 40px;
+  background: grey;
+  opacity: 0.7;
+}
+
+#presentation #presentationRight {
+  float: right;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 30%;
+  height: 300px;
+  margin-right: 20%;
+  font-size: 14px;
+}
+
+#presentation #presentationRight #presentationRightButtons {
+  position: absolute;
+  bottom: 50px;
+}
+
+#presentation #presentationRight #presentationRightButtons button {
+  display: inline-block;
+  width: 60px;
+  height: 35px;
+  border-radius: 3px;
+  background-color: inherit;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  background: grey;
+  opacity: 0.7;
+}
+
+#crutch2 {
+  background-color: gainsboro;
+  width: 100%;
+  height: 750px;
+  margin: 0;
+  padding: 0;
+}
+
+#crutch2 #ourservices {
+  width: 60%;
+  height: 750px;
+  margin: 0 20% 0 20%;
+  font-size: 0;
+  position: relative;
+}
+
+#crutch2 #ourservices p {
+  position: absolute;
+  top: 30px;
+  color: grey;
+  font-size: 14px;
+}
+
+#crutch2 #ourservices h2 {
+  position: absolute;
+  top: 70px;
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+#crutch2 #ourservices #ourservicesBlocks {
+  position: absolute;
+  top: 140px;
+  font-size: 14px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
+  width: 100%;
+  height: 500px;
+}
+
+#crutch2 #ourservices #ourservicesBlocks .ourservicesBlock {
+  background-image: url(../img/health1.jpg);
+  background-repeat: round;
+  width: 100%;
+  height: 100%;
+}
+
+#crutch2 #ourservices #ourservicesBlocks .ourservicesBlock:hover {
+  background-image: url(../img/health2.jpg);
+  opacity: 0.5;
+}
+
+#about {
+  width: 60%;
+  height: 500px;
+  margin: 50px 20% 0 20%;
+  font-size: 0;
+}
+
+#about #aboutLeft {
+  font-size: 14px;
+  width: 40%;
+  height: 500px;
+  float: left;
+  text-align: justify;
+}
+
+#about #aboutLeft p {
+  color: grey;
+}
+
+#about #aboutLeft h3 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+}
+
+#about #aboutLeft h4 {
+  font-size: 24px;
+  color: green;
+  margin: 0 0 30px 0;
+}
+
+#about #aboutRight {
+  font-size: 14px;
+  float: right;
+  width: 50%;
+  height: 500px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
+  margin: 0;
+}
+
+#about #aboutRight .aboutRightBlock {
+  background-color: gainsboro;
+  position: relative;
+}
+
+#about #aboutRight .aboutRightBlock h4 {
+  font-size: 30px;
+  margin: 10px 0 70px 10px;
+}
+
+#about #aboutRight .aboutRightBlock p {
+  font-size: 18px;
+  margin: 10px 0 30px 10px;
+}
+
+#about #aboutRight .aboutRightBlock a {
+  text-decoration: none;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+#about #aboutRight .aboutRightBlock:hover {
+  background-color: steelblue;
+}
+
+#crutch {
+  background-color: gainsboro;
+  height: 300px;
+}
+
+#crutch #partners {
+  width: 60%;
+  height: 300px;
+  margin: 30px 20% 0 20%;
+  position: relative;
+}
+
+#crutch #partners p {
+  color: grey;
+  padding: 20px 0 0 0;
+}
+
+#crutch #partners h3 {
+  margin: 20px 0 0 0;
+}
+
+#crutch #partners #partnersContent {
+  width: 100%;
+  height: 70px;
+  margin: 20px 0 0 0;
+  background-repeat: round;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#crutch #partners #partnersDotted {
+  position: absolute;
+  width: 200px;
+  bottom: 50px;
+  left: 0;
+}
+
+#crutch #partners #partnersDotted div {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-right: 15px;
+  border-radius: 50%;
+  border: 1px solid white;
+  bottom: 40px;
+  background: grey;
+  opacity: 0.7;
+}
+
+#crutch #partners #partnersButtons {
+  position: absolute;
+  width: 123px;
+  bottom: 50px;
+  right: 0px;
+  font-size: 0;
+}
+
+#crutch #partners #partnersButtons button {
+  font-size: 18px;
+  display: inline-block;
+  width: 60px;
+  height: 35px;
+  border-radius: 3px;
+  background-color: inherit;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  background: grey;
+  opacity: 0.7;
+}
+
+#review {
+  width: 60%;
+  height: 500px;
+  margin: 0 20% 0 20%;
+  font-size: 0;
+  position: relative;
+}
+
+#review p {
+  color: grey;
+  font-size: 14px;
+}
+
+#review h3 {
+  font-size: 18px;
+}
+
+#review #reviewBlock {
+  width: 100%;
+  height: 250px;
+  background-color: gainsboro;
+  position: relative;
+}
+
+#review #reviewBlock #reviewBlockText {
+  font-size: 14px;
+  padding: 30px 10px 10px 10px;
+}
+
+#review #reviewBlock #reviewBlockAvatar {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 10px 10px 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#review #reviewBlock #reviewBlockAvatar #reviewBlockAvatarImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-repeat: round;
+  float: left;
+}
+
+#review #reviewBlock #reviewBlockAvatar #reviewBlockAvatarText {
+  float: right;
+  padding: 0 0 10px 10px;
+}
+
+#review #reviewBlock #reviewBlockAvatar #reviewBlockAvatarText h4 {
+  font-size: 18px;
+}
+
+#review #reviewBlock #reviewBlockAvatar #reviewBlockAvatarText p {
+  font-size: 14px;
+}
+
+#review #reviewDotted {
+  position: absolute;
+  width: 200px;
+  bottom: 50px;
+  left: 0;
+}
+
+#review #reviewDotted div {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-right: 15px;
+  border-radius: 50%;
+  border: 1px solid white;
+  bottom: 40px;
+  background: grey;
+  opacity: 0.7;
+  border: 1px solid black;
+}
+
+#review #reviewButtons {
+  position: absolute;
+  width: 123px;
+  bottom: 50px;
+  right: 0px;
+  font-size: 0;
+}
+
+#review #reviewButtons button {
+  font-size: 18px;
+  display: inline-block;
+  width: 60px;
+  height: 35px;
+  border-radius: 3px;
+  background-color: inherit;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  background: grey;
+  opacity: 0.7;
+}
+
+#crutch3 {
+  background-image: url(../img/back3.jpg);
+  background-repeat: round;
+  width: 100%;
+  height: 400px;
+  font-size: 0;
+}
+
+#crutch3 #feedback {
+  width: 60%;
+  height: 400px;
+  margin: 0 20% 0 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+}
+
+#crutch3 #feedback #feedbackLeft {
+  font-size: 14px;
+  float: left;
+  width: 40%;
+  height: 400px;
+}
+
+#crutch3 #feedback #feedbackLeft h4 {
+  font-size: 24px;
+  margin: 78px 0 20px 0;
+}
+
+#crutch3 #feedback #feedbackLeft p {
+  font-size: 14px;
+  margin: 50px 0 20px 0;
+  width: 90%;
+}
+
+#crutch3 #feedback #feedbackLeft #feedbackLeftContacts {
+  margin: 85px 0 20px 0;
+}
+
+#crutch3 #feedback #feedbackLeft #feedbackLeftContacts a {
+  text-decoration: none;
+  color: white;
+}
+
+#crutch3 #feedback #feedbackRight {
+  width: 60%;
+  height: 400px;
+  float: right;
+  position: relative;
+  font-size: 0;
+}
+
+#crutch3 #feedback #feedbackRight #feedbackRightFirst {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 60px 0 30px 0;
+}
+
+#crutch3 #feedback #feedbackRight #feedbackRightFirst #feedbackRightFirstLeft {
+  display: inline-block;
+  font-size: 14px;
+  width: 50%;
+}
+
+#crutch3 #feedback #feedbackRight #feedbackRightFirst #feedbackRightFirstLeft input {
+  float: left;
+  background: inherit;
+  border: none;
+  color: white;
+}
+
+#crutch3 #feedback #feedbackRight #feedbackRightFirst #feedbackRightFirstLeft hr {
+  color: white;
+  width: 90%;
+  margin: 0;
+  padding: 0;
+}
+
+#crutch3 #feedback #feedbackRight #feedbackRightFirst #feedbackRightFirstRight {
+  display: inline-block;
+  font-size: 14px;
+  width: 50%;
+}
+
+#crutch3 #feedback #feedbackRight #feedbackRightFirst #feedbackRightFirstRight input {
+  width: 100%;
+  background: inherit;
+  border: none;
+  color: white;
+}
+
+#crutch3 #feedback #feedbackRight #feedbackRightFirst #feedbackRightFirstRight hr {
+  color: white;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#crutch3 #feedback #feedbackRight #feedbackRightSecond {
+  font-size: 14px;
+  width: 100%;
+}
+
+#crutch3 #feedback #feedbackRight #feedbackRightSecond input {
+  width: 100%;
+  padding: 0 0 80px 0;
+  background: inherit;
+  border: none;
+  color: white;
+}
+
+#crutch3 #feedback #feedbackRight #feedbackRightSecond input hr {
+  color: white;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#crutch3 #feedback #feedbackRight #feedbackRightButton {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  width: 150px;
+  height: 35px;
+  border-radius: 3px;
+  background-color: green;
+}
+
+#footer {
+  width: 60%;
+  margin: 20px 20% 0 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#footer p {
+  color: grey;
+}
+
+#finitaLaComedia {
+  display: none;
+}
+
+@media screen and (max-width: 1080px) {
+  #header {
+    width: 80%;
+    margin: 0 10%;
+  }
+  #header #headerRight #headerRightTop {
+    font-size: 13px;
+  }
+  #presentation #presentationLeft {
+    width: 40%;
+    margin-left: 10%;
+  }
+  #presentation #presentationRight {
+    width: 40%;
+    margin-right: 10%;
+  }
+  #crutch2 #ourservices {
+    width: 80%;
+    margin: 0 10% 0 10%;
+  }
+  #about {
+    width: 80%;
+    height: 500px;
+    margin: 50px 10% 0 10%;
+  }
+  #crutch #partners {
+    width: 80%;
+    margin: 30px 10% 0 10%;
+  }
+  #review {
+    width: 80%;
+    margin: 0 10% 0 10%;
+  }
+  #crutch3 #feedback {
+    width: 80%;
+    margin: 0 10% 0 10%;
+  }
+  #footer {
+    width: 80%;
+    margin: 20px 10% 0 10%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #header {
+    width: 90%;
+    margin: 0 5%;
+  }
+  #header #headerLeft {
+    width: 25%;
+  }
+  #header #headerRight {
+    width: 75%;
+  }
+  #header #headerRight #headerRightTop {
+    font-size: 12px;
+    margin: 6px 0 0 0;
+  }
+  #presentation #presentationLeft {
+    width: 45%;
+    margin-left: 5%;
+  }
+  #presentation #presentationRight {
+    width: 45%;
+    margin-right: 5%;
+  }
+  #crutch2 #ourservices {
+    width: 90%;
+    margin: 0 5% 0 5%;
+  }
+  #about {
+    width: 90%;
+    height: 500px;
+    margin: 50px 5% 0 5%;
+  }
+  #crutch #partners {
+    width: 90%;
+    margin: 30px 5% 0 5%;
+  }
+  #review {
+    width: 90%;
+    margin: 0 5% 0 5%;
+  }
+  #crutch3 #feedback {
+    width: 90%;
+    margin: 0 5% 0 5%;
+  }
+  #footer {
+    width: 90%;
+    margin: 20px 5% 0 5%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  #header #headerLeft {
+    height: 35px;
+    width: 20%;
+  }
+  #header #headerLeft img {
+    width: 35px;
+    height: 35px;
+  }
+  #header #headerLeft p {
+    font-size: 15px;
+  }
+  #header #headerLeft p2 {
+    font-size: 10px;
+  }
+  #header #headerRight {
+    width: 80%;
+  }
+  #header #headerRight #headerRightTop {
+    margin: 8px 0 0 0;
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #header {
+    display: none;
+  }
+  #about {
+    display: none;
+  }
+  #crutch3 {
+    display: none;
+  }
+  #footer {
+    display: none;
+  }
+  #crutch2 {
+    display: none;
+  }
+  #crutch {
+    display: none;
+  }
+  #presentation {
+    display: none;
+  }
+  #review {
+    display: none;
+  }
+  #finitaLaComedia {
+    display: inline-block;
+    font-size: 40px;
+    background-color: black;
+    color: red;
+    padding: 20px;
+    height: 94vh;
+  }
+}
+/*# sourceMappingURL=main.css.map */
